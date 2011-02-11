@@ -1,2 +1,22 @@
 Usage instructions:
 ----------------------
+
+First let us see what is inside sample-html.html :
+
+		<html>
+			<head>
+				<link rel='stylesheet' type='text/less' href='css/style.less'>
+				<title>LessCSS compiler example</title>
+			</head>
+			<body>
+			
+			<script type='text/javascript' src='scripts/jquery-1.4.4.min.js'></script>
+			<script type='text/javascript' src='less-compiler/less-compiler.js'></script>
+			<script type='text/javascript' src='less-compiler/less-1.0.41-rigged.js'></script>
+			</body>
+		</html>
+
+
+
+(1) 
+(2) Instead of the normal less.js javsscript file, use the
