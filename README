@@ -1,7 +1,7 @@
 Usage instructions:
 ----------------------
 
-First let us see what is inside sample-html.html :
+Create an html file similar to sample-html.html given below:
 
 		<html>
 			<head>
@@ -17,6 +17,19 @@ First let us see what is inside sample-html.html :
 		</html>
 
 
+and navigate to the html page from your browser.
 
-(1) 
-(2) Instead of the normal less.js javsscript file, use the
+The compiled css will be sent your server. Write some code (or modify the php files provided) to save it as .css file. You may want to check the hash of the .less file to make sure that you compile only when it is necessary.
+
+
+
+How it works:
+----------------------
+
+1. Instead of the normal less.js JavaScript file, we use a modified file to send back the compiled css to the server
+2. The Ajax method to send back the css is in the file less-compiler/less-compiler.js. If you want to change something, most probably it will be here.
+
+---------------------------
+
+- Some php files are provided to give an example of how the file is saved in the server.
+- We are saving the hash of the file too so that compiling is done only when necessary.
