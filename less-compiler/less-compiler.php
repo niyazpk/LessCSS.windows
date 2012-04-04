@@ -15,7 +15,7 @@
 	
 	<script type='text/javascript' src='scripts/jquery-1.4.4.min.js'></script>
 	<script type='text/javascript' src='less-compiler/less-compiler.js'></script>
-	<script type='text/javascript' src='less-compiler/less-1.0.41-rigged.js'></script>
+	<script type='text/javascript' src='less-compiler/less-1.3.0-rigged.js'></script>
 	</body>
 </html>
 <?php 
