@@ -1,7 +1,7 @@
 What is this?
 ----------------------
 
-This is a compiler for LessCSS files in Windows. (or if you don't want to install node). It works by comiling your less file into css in the browser (using the compiler provided by LessCSS) and then sending back the results to your server.
+This is a compiler for [LessCSS](http://lesscss.org/) files in Windows. (or if you don't want to install node). It works by comiling your less file into css in the browser (using the compiler provided by LessCSS) and then sending back the results to your server.
 
 
 Usage instructions:
